@@ -255,8 +255,8 @@
 </template>
 
 <script>
-import PersonalInfo from '../components/PersonalInfo.vue'
 export default {
+	name: 'About',
 	data: () => ({
 		sheet: false,
 		imageURL: 'meImage',
@@ -271,8 +271,5 @@ export default {
 			}
 		],
 	}),
-	components: {
-		PersonalInfo,
-	},
 }
 </script>

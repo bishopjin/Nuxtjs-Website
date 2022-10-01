@@ -21,9 +21,8 @@
 </template>
 
 <script>
-import Project from '../components/Project.vue'
-
 export default {
+	name: 'Portfolio',
 	data: () => ({
 		bladeUrl: 'https://laravelwebapp.genesedan.com/',
 		vueUrl: 'https://vuejsapp.genesedan.com/',
@@ -38,9 +37,6 @@ export default {
 			}
 		],
 	}),
-	components: {
-		Project,
-	},
 	computed: {
 		projects() {
 			let projObj = [

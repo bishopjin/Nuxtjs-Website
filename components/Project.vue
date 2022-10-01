@@ -147,6 +147,7 @@
 
 <script>
 export default {
+	name: 'Project',
 	data: () => ({
 		githubUrl: 'https://github.com/',
 		cycle: true,

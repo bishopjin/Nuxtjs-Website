@@ -133,6 +133,7 @@
 
 <script>
 export default {
+	name: 'WebApp',
 	data: () => ({
 		imageURL: { 
 			inv: 'inventory_thumbnail', 

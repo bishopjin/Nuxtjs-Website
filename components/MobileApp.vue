@@ -45,6 +45,7 @@
 
 <script>
 export default {
+	name: 'MobileApp',
 	data: () => ({
 		imageURL: { 
 			calc: 'calculator', 

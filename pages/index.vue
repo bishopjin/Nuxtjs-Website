@@ -55,11 +55,8 @@
 </template>
 
 <script>
-import Intro from '../components/Intro.vue'
-import WebApp from '../components/WebApp.vue'
-import MobileApp from '../components/MobileApp.vue'
-
 export default {
+	name: 'Home',
 	data: () => ({
 		intro: true,
 		webApp: false,
@@ -75,11 +72,6 @@ export default {
 			}
 		],
 	}),
-	components: {
-		WebApp,
-		Intro,
-		MobileApp
-	},
 	methods: {
 		introClick() {
 			this.intro = true
